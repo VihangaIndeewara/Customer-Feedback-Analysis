@@ -21,38 +21,49 @@
     </header>
     <main>
         <br>
-        <br>
+       
         <div>
-            <h3 style="position:absolute; left: 80px; top: 150px;">Fashion Sunglass European and American Metal Small Squre Frame Korean Version Glasses Retro Square Sunglass UV Protection</h2>
+            <h3 style="position:absolute; left: 80px; top: 130px;">Fashion Sunglass European and American Metal Small Squre Frame Korean Version Glasses Retro Square Sunglass UV Protection</h3>
         </div>
         <div class="split left">
 
            
 
 
-            <div class="centered">
-                <img src="../static/img/sunglass.png" alt="itemImage" style="box-shadow: 1px 1px 1px 1px black">
+            <div class="centered" style="top: 480px;">
+                <img src="../static/img/sunglass.png" alt="itemImage" style="box-shadow: 0 0 3px 0 black; border-radius: 20px;" >
+                <br>
+                <br>
+                <h4>Lenses Color : Black / Brown</h4>
             </div>
         </div>
     
-        <div class="split right">
+        <div class="split right" style="margin-top: 200px; left: 700px;height: 500px;">
             <div class="container mt-5 mb-5">
                 <div class="d-flex justify-content-center row">
                     <div class="d-flex flex-column col-md-8">
                         <div>
-                            <label for="">Positive Feedbacks : {{ data.positive }}</label>
+                            <h6><b>Customer Feedback : </b></h6>
                         </div>
-                        <div>
-                            <label for="">Negative Feedbacks : {{ data.negative }}</label>
-                        </div>
+                        
                         <div>
                             <form method="post">
                               <textarea name="text"></textarea>
-                              <input type="submit">
+                              <br>
+                            
+                              <input type="submit" class="btn btn-primary" style="margin-top: 8px;">
                             </form>
                         </div>
-    
+                        <div>
+                            <label for="">Positive Feedbacks : {{ data.positive }}</label>
+                        </div>
+                        <div>
+                            <label for="" style="color: red;">Negative Feedbacks : {{ data.negative }} </label>
+                        </div>
+                        <br>
                         <div class="coment-bottom bg-white p-2 px-4">
+                            <h6><b>All Feedbacks : </b></h6>
+                           
                             {% for review in data.reviews %}
                             <hr/>
                               <div
@@ -62,7 +73,10 @@
                                       <div class="text-nowrap bd-highlight"><span>{{ review }}</span></div>
                                       <hr/>
                             {% endfor %}
+                            <br>
+                            <br>
                           </div>
+                         
                     </div>
                 </div>
             </div>
