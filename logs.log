@@ -1,14 +1,14 @@
-2024-01-31 09:51:08,371 - INFO - FastAPI Started
-2024-01-31 10:01:46,510 - INFO - ========Open home page========
-2024-01-31 10:02:11,918 - INFO - Text : Awesome
-2024-01-31 10:02:13,571 - INFO - Preprocessed Text : 0    awesom
+2024-02-09 10:05:56,483 - INFO - FastAPI Started
+2024-02-09 10:05:57,002 - INFO - ========Open home page========
+2024-02-09 10:08:32,416 - INFO - Text : Awesome Good Product!!!!
+2024-02-09 10:08:33,055 - INFO - Preprocessed Text : 0    awesom good product
 Name: tweet, dtype: object
-2024-01-31 10:02:13,655 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
-2024-01-31 10:02:14,115 - INFO - Prediction : positive
-2024-01-31 10:02:14,123 - INFO - ========Open home page========
-2024-01-31 10:04:19,526 - INFO - Text : Really Bad!!!!!
-2024-01-31 10:04:19,592 - INFO - Preprocessed Text : 0    realli bad
+2024-02-09 10:08:33,129 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
+2024-02-09 10:08:33,214 - INFO - Prediction : positive
+2024-02-09 10:08:33,219 - INFO - ========Open home page========
+2024-02-09 10:09:06,366 - INFO - Text : Bad Quality!!......
+2024-02-09 10:09:06,372 - INFO - Preprocessed Text : 0    bad qualiti
 Name: tweet, dtype: object
-2024-01-31 10:04:19,614 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
-2024-01-31 10:04:19,616 - INFO - Prediction : negative
-2024-01-31 10:04:19,653 - INFO - ========Open home page========
+2024-02-09 10:09:06,374 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
+2024-02-09 10:09:06,375 - INFO - Prediction : negative
+2024-02-09 10:09:06,378 - INFO - ========Open home page========
